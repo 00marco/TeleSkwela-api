@@ -4,7 +4,7 @@ from rest.models.lesson import Lesson
 class Quiz(models.Model):
     name = models.CharField(max_length=100)
     score = models.IntegerField()
-    total_number_of_items = models.IntegerField(required=True)
+    total_number_of_items = models.IntegerField()
 
     lesson = models.ForeignKey(Lesson, on_delete = models.CASCADE)
 
