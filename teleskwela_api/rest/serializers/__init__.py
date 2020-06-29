@@ -1,0 +1,6 @@
+from .award_serializer import AwardSerializer
+from .lesson_serializer import LessonSerializer
+from .quiz_serializer import QuizSerializer
+from .subject_serializer import SubjectSerializer
+from .subjectCategory_serializer import SubjectCategorySerializer
+from .student_serializer import StudentSerializer

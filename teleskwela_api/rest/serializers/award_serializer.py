@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from rest.models improt Award
+from rest.models import Award
 
 class AwardSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
